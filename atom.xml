@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-03-17T15:14:55.196Z</updated>
+  <updated>2020-03-19T05:06:14.528Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2020/03/17/hello-world/"/>
-    <id>http://yoursite.com/2020/03/17/hello-world/</id>
-    <published>2020-03-17T15:14:55.196Z</published>
-    <updated>2020-03-17T15:14:55.196Z</updated>
+    <title>傻气</title>
+    <link href="http://yoursite.com/2020/03/17/%E5%82%BB%E6%B0%94/"/>
+    <id>http://yoursite.com/2020/03/17/%E5%82%BB%E6%B0%94/</id>
+    <published>2020-03-17T01:48:00.000Z</published>
+    <updated>2020-03-19T05:06:14.528Z</updated>
     
     <summary type="html">
     
@@ -29,13 +29,476 @@
       
         
         
-          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+          &lt;p&gt;那年天真傻气&lt;/p&gt;
+&lt;p&gt;都是未来怀念的美好.&lt;/p&gt;
+
         
       
     
     </summary>
     
     
+    
+      <category term="诗与酒" scheme="http://yoursite.com/tags/%E8%AF%97%E4%B8%8E%E9%85%92/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Flutter json数据解析</title>
+    <link href="http://yoursite.com/2019/11/20/Flutter%20json%E6%95%B0%E6%8D%AE%E8%A7%A3%E6%9E%90/"/>
+    <id>http://yoursite.com/2019/11/20/Flutter%20json%E6%95%B0%E6%8D%AE%E8%A7%A3%E6%9E%90/</id>
+    <published>2019-11-20T12:34:48.000Z</published>
+    <updated>2020-03-19T05:05:48.437Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;手动序列化&quot;&gt;&lt;a href=&quot;#手动序列化&quot; class=&quot;headerlink&quot; title=&quot;手动序列化&quot;&gt;&lt;/a&gt;手动序列化&lt;/h2&gt;&lt;p&gt;使用dart:convert手动序列化数据&lt;/p&gt;
+&lt;p&gt;json数据:&lt;/p&gt;
+&lt;figure class=&quot;highlight json&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;attr&quot;&gt;&quot;name&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;John Smith&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;  &lt;span class=&quot;attr&quot;&gt;&quot;email&quot;&lt;/span&gt;: &lt;span class=&quot;string&quot;&gt;&quot;john@example.com&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>珍重</title>
+    <link href="http://yoursite.com/2019/06/21/%E7%8F%8D%E9%87%8D/"/>
+    <id>http://yoursite.com/2019/06/21/%E7%8F%8D%E9%87%8D/</id>
+    <published>2019-06-21T12:31:40.000Z</published>
+    <updated>2020-03-19T05:06:30.093Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;又是一年花开时&quot;&gt;&lt;a href=&quot;#又是一年花开时&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="诗与酒" scheme="http://yoursite.com/tags/%E8%AF%97%E4%B8%8E%E9%85%92/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2019新春</title>
+    <link href="http://yoursite.com/2019/02/05/2019-2-5-2019%E6%96%B0%E6%98%A5/"/>
+    <id>http://yoursite.com/2019/02/05/2019-2-5-2019%E6%96%B0%E6%98%A5/</id>
+    <published>2019-02-04T17:05:10.000Z</published>
+    <updated>2020-03-19T05:05:32.651Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;爆竹声中一岁除,春风送暖入屠苏&lt;/p&gt;
+&lt;p&gt;新春佳节,新的一年要更加努力,去自己想去的地方!&lt;/p&gt;
+&lt;p&gt;新春快乐~&lt;/p&gt;
+
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="随笔" scheme="http://yoursite.com/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Django图片上传</title>
+    <link href="http://yoursite.com/2019/01/15/Django%E5%9B%BE%E7%89%87%E4%B8%8A%E4%BC%A0/"/>
+    <id>http://yoursite.com/2019/01/15/Django%E5%9B%BE%E7%89%87%E4%B8%8A%E4%BC%A0/</id>
+    <published>2019-01-14T16:00:00.000Z</published>
+    <updated>2020-03-19T05:05:46.094Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Python-Web-学习之图片上传&quot;&gt;&lt;a href=&quot;#Python-Web-学习之图片上传&quot; class=&quot;headerlink&quot; title=&quot;Python Web 学习之图片上传&quot;&gt;&lt;/a&gt;Python Web 学习之图片上传&lt;/h2&gt;&lt;figure
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Python" scheme="http://yoursite.com/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>再见2018, 你好2019</title>
+    <link href="http://yoursite.com/2019/01/08/%E5%86%8D%E8%A7%812018,%20%E4%BD%A0%E5%A5%BD2019/"/>
+    <id>http://yoursite.com/2019/01/08/%E5%86%8D%E8%A7%812018,%20%E4%BD%A0%E5%A5%BD2019/</id>
+    <published>2019-01-08T15:58:31.000Z</published>
+    <updated>2020-03-19T05:06:17.913Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;​    &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“人的眼睛是由黑、白两部分所组成的，可是神为什么要让人只能通过黑的部分去看东西？” “因为人生必须透过黑暗，才能看到光明。”    ——《塔木德》&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;​                                &lt;/p&gt;
+&lt;p&gt;宿舍楼下有一家水果店, 已经是九月的末梢, 芒果,橙子,柚子…..整齐的放在一格一格的木头盒子里.&lt;/p&gt;
+&lt;p&gt;图书馆的二楼,有一株可以晒到早上八点的阳光的绿色小植物.&lt;/p&gt;
+&lt;p&gt;晾衣架上有一件白色的衬衫.&lt;/p&gt;
+&lt;p&gt;2018年就像我的2015年.&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="随笔" scheme="http://yoursite.com/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python数据库简易教程</title>
+    <link href="http://yoursite.com/2018/05/20/SQL%E7%AE%80%E6%98%8E%E6%95%99%E7%A8%8B/"/>
+    <id>http://yoursite.com/2018/05/20/SQL%E7%AE%80%E6%98%8E%E6%95%99%E7%A8%8B/</id>
+    <published>2018-05-20T13:50:50.000Z</published>
+    <updated>2020-03-19T05:06:01.831Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;创建数据库&quot;&gt;&lt;a href=&quot;#创建数据库&quot; class=&quot;headerlink&quot; title=&quot;创建数据库:&quot;&gt;&lt;/a&gt;创建数据库:&lt;/h2&gt;&lt;p&gt;&lt;code&gt;CREAT TABLE&lt;/code&gt; 表名称 (键值)&lt;/p&gt;
+&lt;p&gt;其中必须有一个主键 即为 &lt;code&gt;PRIMARY&lt;/code&gt; 键&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;NOT NULL&lt;/code&gt; 即为插入数据不能为空&lt;/p&gt;
+&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; sqlite3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;conn = sqlite3.connect(&lt;span class=&quot;string&quot;&gt;&quot;test.db&quot;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;print(&lt;span class=&quot;string&quot;&gt;&quot;Open data successful&quot;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# 打开游标&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;c = conn.cursor()&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="Python" scheme="http://yoursite.com/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python3类型注解</title>
+    <link href="http://yoursite.com/2018/05/19/%E7%B1%BB%E5%9E%8B%E6%B3%A8%E8%A7%A3/"/>
+    <id>http://yoursite.com/2018/05/19/%E7%B1%BB%E5%9E%8B%E6%B3%A8%E8%A7%A3/</id>
+    <published>2018-05-19T00:15:40.000Z</published>
+    <updated>2020-03-19T05:06:33.684Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;函数注解&quot;&gt;&lt;a href=&quot;#函数注解&quot; class=&quot;headerlink&quot; title=&quot;函数注解&quot;&gt;&lt;/a&gt;函数注解&lt;/h2&gt;&lt;p&gt;定义函数的时候对参数和返回值添加注解.&lt;/p&gt;
+&lt;figure class=&quot;highlight
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Python" scheme="http://yoursite.com/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Mine</title>
+    <link href="http://yoursite.com/2018/05/07/Mine/"/>
+    <id>http://yoursite.com/2018/05/07/Mine/</id>
+    <published>2018-05-07T05:50:25.000Z</published>
+    <updated>2020-03-19T05:05:57.503Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;你是我的睡梦轻轻&lt;/p&gt;
+&lt;p&gt;我的满天繁星&lt;/p&gt;
+&lt;p&gt;And My
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="诗与酒" scheme="http://yoursite.com/tags/%E8%AF%97%E4%B8%8E%E9%85%92/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Zhi</title>
+    <link href="http://yoursite.com/2018/05/04/one/"/>
+    <id>http://yoursite.com/2018/05/04/one/</id>
+    <published>2018-05-04T09:35:25.000Z</published>
+    <updated>2020-03-19T05:05:59.466Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;先是太胆小，明知不该做的事却不敢不做&lt;/p&gt;
+&lt;p&gt;后来也还是太胆小，明知该做的事却不敢去做&lt;/p&gt;
+
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="诗与酒" scheme="http://yoursite.com/tags/%E8%AF%97%E4%B8%8E%E9%85%92/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>那些年</title>
+    <link href="http://yoursite.com/2018/04/11/Those%20Days/"/>
+    <id>http://yoursite.com/2018/04/11/Those%20Days/</id>
+    <published>2018-04-11T00:12:25.000Z</published>
+    <updated>2020-03-19T05:06:05.003Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;老师曾说千岛寒流遇到日本暖流时，会温暖整个海域&lt;/p&gt;
+&lt;p&gt;我突然想起了你，那是我后来唯一记得的地理题。&lt;/p&gt;
+
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="诗与酒" scheme="http://yoursite.com/tags/%E8%AF%97%E4%B8%8E%E9%85%92/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Morning</title>
+    <link href="http://yoursite.com/2018/04/02/%E6%97%A9/"/>
+    <id>http://yoursite.com/2018/04/02/%E6%97%A9/</id>
+    <published>2018-04-02T00:02:25.000Z</published>
+    <updated>2020-03-19T05:06:27.894Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;思念某个地方&lt;/p&gt;
+&lt;p&gt;多半是因为那里曾经有你爱的人和你爱的过去&lt;/p&gt;
+
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="诗与酒" scheme="http://yoursite.com/tags/%E8%AF%97%E4%B8%8E%E9%85%92/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HA插件更新机制</title>
+    <link href="http://yoursite.com/2018/03/29/HA%E6%8F%92%E4%BB%B6%E6%9B%B4%E6%96%B0%E6%9C%BA%E5%88%B6/"/>
+    <id>http://yoursite.com/2018/03/29/HA%E6%8F%92%E4%BB%B6%E6%9B%B4%E6%96%B0%E6%9C%BA%E5%88%B6/</id>
+    <published>2018-03-29T05:37:50.000Z</published>
+    <updated>2020-03-19T05:05:54.788Z</updated>
+    
+    <summary type="html">
+    
+      &lt;!-- # HA插件更新机制 --&gt;
+
+&lt;h2 id=&quot;方式1&quot;&gt;&lt;a href=&quot;#方式1&quot; class=&quot;headerlink&quot; title=&quot;方式1&quot;&gt;&lt;/a&gt;方式1&lt;/h2&gt;&lt;p&gt;以和风天气为实例&lt;/p&gt;
+&lt;p&gt;计时方式:  &lt;code&gt;TIME_BETWEEN_UPDATES = timedelta(seconds=1800)&lt;/code&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="Python" scheme="http://yoursite.com/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>For You</title>
+    <link href="http://yoursite.com/2018/03/26/%E9%81%87%E8%A7%81%E5%A5%B9%E9%82%A3%E4%B8%80%E5%A4%A9/"/>
+    <id>http://yoursite.com/2018/03/26/%E9%81%87%E8%A7%81%E5%A5%B9%E9%82%A3%E4%B8%80%E5%A4%A9/</id>
+    <published>2018-03-26T14:07:40.000Z</published>
+    <updated>2020-03-19T05:06:36.141Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;遇见她的那一天，我跑得上气不接下气。&lt;br&gt;生怕慢一点，她就会淹没在人海里，淹没在岁月的尘埃里。&lt;/p&gt;
+
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="诗与酒" scheme="http://yoursite.com/tags/%E8%AF%97%E4%B8%8E%E9%85%92/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>上元节</title>
+    <link href="http://yoursite.com/2018/03/02/%E4%B8%8A%E5%85%83%E8%8A%82/"/>
+    <id>http://yoursite.com/2018/03/02/%E4%B8%8A%E5%85%83%E8%8A%82/</id>
+    <published>2018-03-02T13:59:33.000Z</published>
+    <updated>2020-03-19T05:06:09.824Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;blockquote&gt;
+&lt;p&gt;东风夜放花千树。更吹落，星如雨。宝马雕车香满路。凤箫声动，玉壶光转，一夜鱼龙舞。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;又是一年上元夜，过了今天，也算是完整的告别了2017年。人们陆陆续续开始了新的一年的工作学习。我也一样，不久就要奔赴在旅程中
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="随笔" scheme="http://yoursite.com/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>HA汉化的两种方式</title>
+    <link href="http://yoursite.com/2018/02/21/HA%E5%AE%9E%E4%BD%93%E7%9A%84%E4%B8%A4%E7%A7%8D%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F/"/>
+    <id>http://yoursite.com/2018/02/21/HA%E5%AE%9E%E4%BD%93%E7%9A%84%E4%B8%A4%E7%A7%8D%E4%BD%BF%E7%94%A8%E6%96%B9%E5%BC%8F/</id>
+    <published>2018-02-21T02:54:13.000Z</published>
+    <updated>2020-03-19T05:05:50.687Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h1 id=&quot;使用-generate-entity-id-生成实体ID&quot;&gt;&lt;a href=&quot;#使用-generate-entity-id-生成实体ID&quot; class=&quot;headerlink&quot; title=&quot;使用 generate_entity_id() 生成实体ID&quot;&gt;&lt;/a&gt;使用 &lt;code&gt;generate_entity_id()&lt;/code&gt; 生成实体ID&lt;/h1&gt;&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;class&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;HeWeatherSensor&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;(Entity)&lt;/span&gt;:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;__init__&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;(self, data, option, hass)&lt;/span&gt;:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        self._hass = hass&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        self.entity_id = generate_entity_id(&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;string&quot;&gt;&#39;sensor.&amp;#123;&amp;#125;&#39;&lt;/span&gt;, sensor_name, hass=self._hass)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        self._friendly_name = OPTIONS[option][&lt;span class=&quot;number&quot;&gt;1&lt;/span&gt;]&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;    @property&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;    &lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;(self)&lt;/span&gt;:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;        &lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; self._friendly_name&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="Python" scheme="http://yoursite.com/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>不要说重逢</title>
+    <link href="http://yoursite.com/2018/02/18/%E6%88%91%E4%BB%AC%E4%B8%8D%E8%A6%81%E5%86%8D%E8%AF%B4%E9%87%8D%E9%80%A2%E7%9A%84%E8%AF%9D/"/>
+    <id>http://yoursite.com/2018/02/18/%E6%88%91%E4%BB%AC%E4%B8%8D%E8%A6%81%E5%86%8D%E8%AF%B4%E9%87%8D%E9%80%A2%E7%9A%84%E8%AF%9D/</id>
+    <published>2018-02-18T03:31:25.000Z</published>
+    <updated>2020-03-19T05:06:25.196Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;我们不要再说重逢的话&lt;/p&gt;
+&lt;p&gt;人生是一首残缺的诗&lt;/p&gt;
+&lt;p&gt;不是因为有了上句&lt;/p&gt;
+&lt;p&gt;就必然会有下句。&lt;/p&gt;
+
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="诗与酒" scheme="http://yoursite.com/tags/%E8%AF%97%E4%B8%8E%E9%85%92/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>深情</title>
+    <link href="http://yoursite.com/2018/02/18/%E4%B8%94%E6%9C%89%E6%B7%B1%E6%83%85%E5%85%B1%E7%99%BD%E5%A4%B4/"/>
+    <id>http://yoursite.com/2018/02/18/%E4%B8%94%E6%9C%89%E6%B7%B1%E6%83%85%E5%85%B1%E7%99%BD%E5%A4%B4/</id>
+    <published>2018-02-17T16:13:00.000Z</published>
+    <updated>2020-03-19T05:06:11.969Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;有多少深情可供回首&lt;br&gt;有多少爱恋可供白头&lt;/p&gt;
+&lt;p&gt;让你活着是爱&lt;br&gt;不愿让你离开&lt;/p&gt;
+&lt;p&gt;让你死去也是爱&lt;br&gt;不愿看你受苦。&lt;/p&gt;
+
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="诗与酒" scheme="http://yoursite.com/tags/%E8%AF%97%E4%B8%8E%E9%85%92/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>平流层</title>
+    <link href="http://yoursite.com/2018/02/15/%E5%B9%B3%E6%B5%81%E5%B1%82/"/>
+    <id>http://yoursite.com/2018/02/15/%E5%B9%B3%E6%B5%81%E5%B1%82/</id>
+    <published>2018-02-15T03:35:52.000Z</published>
+    <updated>2020-03-19T05:06:22.639Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;你是你自己&lt;/p&gt;
+&lt;p&gt;一生的情人&lt;/p&gt;
+
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="诗与酒" scheme="http://yoursite.com/tags/%E8%AF%97%E4%B8%8E%E9%85%92/"/>
     
   </entry>
   

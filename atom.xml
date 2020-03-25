@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-03-19T05:06:14.528Z</updated>
+  <updated>2020-03-25T06:54:34.653Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>People</title>
+    <link href="http://yoursite.com/2020/03/25/People/"/>
+    <id>http://yoursite.com/2020/03/25/People/</id>
+    <published>2020-03-25T06:54:40.000Z</published>
+    <updated>2020-03-25T06:54:34.653Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;我们普通人这一辈子没有那么多轰轰烈烈的事情可以记忆,&lt;/p&gt;
+&lt;p&gt;只有那些淅淅沥沥,微不足道的小事,&lt;/p&gt;
+&lt;p&gt;让我们刻骨铭心.&lt;/p&gt;
+
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="诗与酒" scheme="http://yoursite.com/tags/%E8%AF%97%E4%B8%8E%E9%85%92/"/>
+    
+  </entry>
   
   <entry>
     <title>傻气</title>

@@ -1,13 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Python数据库简易教程</title>
+    <url>/2020/03/31/Provider%20%E6%95%B0%E6%8D%AE%E5%85%B1%E4%BA%AB/</url>
+    <content><![CDATA[<h2 id="Provider-数据共享"><a href="#Provider-数据共享" class="headerlink" title="Provider 数据共享"></a>Provider 数据共享</h2><h3 id="添加依赖"><a href="#添加依赖" class="headerlink" title="添加依赖"></a>添加依赖</h3><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">provider:</span></span><br></pre></td></tr></table></figure>
+
+<p>默认添加最新版本的依赖</p>
+<h3 id="创建store类"><a href="#创建store类" class="headerlink" title="创建store类"></a>创建store类</h3><figure class="highlight dart"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">CounterProvider</span> <span class="title">with</span> <span class="title">ChangeNotifier</span> </span>&#123;</span><br><span class="line">  <span class="built_in">int</span> _number = <span class="number">0</span>;</span><br><span class="line">  <span class="built_in">int</span> <span class="keyword">get</span> value =&gt; _number;</span><br><span class="line">  <span class="keyword">void</span> changeNumber() &#123;</span><br><span class="line">    _number++;</span><br><span class="line">    notifyListeners();</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>包含两个方法,get方法用于获取数值,changeNumber方法用于改变数值并通知监听改变.每个provider的store类结构都差不多.</p>
+<h3 id="main-dart"><a href="#main-dart" class="headerlink" title="main.dart"></a>main.dart</h3><p>在顶层声明的provider,默认是全局的.</p>
+<p>如果有多个provider,使用<code>MultiProvider</code></p>
+<figure class="highlight dart"><table><tr><td class="code"><pre><span class="line"><span class="keyword">void</span> main() &#123;</span><br><span class="line">  runApp(MultiProvider(</span><br><span class="line">    providers: [</span><br><span class="line">      ChangeNotifierProvider(</span><br><span class="line">        create: (_) =&gt;</span><br><span class="line">            ThemeBean(themeType: ThemeType.light, themeData: ThemeData.light()),</span><br><span class="line">      ),</span><br><span class="line">      ChangeNotifierProvider(create: (_) =&gt; CounterProvider())</span><br><span class="line">    ],</span><br><span class="line">    child: MyApp(),</span><br><span class="line">  ));</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">MyApp</span> <span class="keyword">extends</span> <span class="title">StatelessWidget</span> </span>&#123;</span><br><span class="line">  MyApp() &#123;</span><br><span class="line">    <span class="keyword">final</span> router = Router();</span><br><span class="line">    Routers.configureRoutes(router);</span><br><span class="line">    Application.router = router;</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  <span class="meta">@override</span></span><br><span class="line">  Widget build(BuildContext context) &#123;</span><br><span class="line">    <span class="keyword">return</span> MaterialApp(</span><br><span class="line">      theme: Provider.of&lt;ThemeBean&gt;(context, listen: <span class="keyword">true</span>).themeData,</span><br><span class="line">      onGenerateRoute: Application.router.generator,</span><br><span class="line">    );</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="获取数据"><a href="#获取数据" class="headerlink" title="获取数据"></a>获取数据</h3><p>在home_page中获取来自另一个页面改变的数据</p>
+<figure class="highlight dart"><table><tr><td class="code"><pre><span class="line">Text(<span class="string">"This is from counter provider:<span class="subst">$&#123;</span></span></span><br><span class="line"><span class="string"><span class="subst">     Provider.of&lt;CounterProvider&gt;(context).value.toString()</span></span></span><br><span class="line"><span class="string"><span class="subst">   &#125;</span>"</span></span><br><span class="line">),</span><br></pre></td></tr></table></figure>
+
+<p>使用<code>Provider.of&lt;CounterProvider&gt;(context).value</code>获取数据, 泛型可以不填,但是为了程序的健壮,最好是写上.</p>
+<h3 id="改变数据"><a href="#改变数据" class="headerlink" title="改变数据"></a>改变数据</h3><p>此处我们点击按钮使数值+1, 同样使用<code>Provider.of&lt;CounterProvider&gt;(context, listen: false).changeNumber();</code>方法, listen参数主要是是否需要刷新页面,此处调用改变数值的方法,不需要刷新页面, listen值默认是true,调用changeNumber后,在这个函数中会调用<code>notifyListeners()</code>方法,通知监听这个数值的地方进行刷新,从而得到跨组件数据共享的作用.</p>
+<figure class="highlight dart"><table><tr><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">ProviderCounter</span> <span class="keyword">extends</span> <span class="title">StatelessWidget</span> </span>&#123;</span><br><span class="line">  <span class="meta">@override</span></span><br><span class="line">  Widget build(BuildContext context) &#123;</span><br><span class="line">    <span class="keyword">return</span> Scaffold(</span><br><span class="line">      appBar: AppBar(</span><br><span class="line">        title: Text(<span class="string">'Provider counter'</span>),</span><br><span class="line">      ),</span><br><span class="line">      body: Center(</span><br><span class="line">        child: Text(<span class="string">'data: <span class="subst">$&#123;Provider.of&lt;CounterProvider&gt;(context).value&#125;</span>'</span>),</span><br><span class="line">      ),</span><br><span class="line">      floatingActionButton: FloatingActionButton(</span><br><span class="line">        onPressed: () &#123;</span><br><span class="line">          Provider.of&lt;CounterProvider&gt;(context, listen: <span class="keyword">false</span>).changeNumber();</span><br><span class="line">        &#125;,</span><br><span class="line">        child: Icon(Icons.add),</span><br><span class="line">      ),</span><br><span class="line">    );</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+]]></content>
+      <tags>
+        <tag>flutter</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>flutter 路由</title>
     <url>/2020/03/26/flutter%20%E8%B7%AF%E7%94%B1/</url>
     <content><![CDATA[<h2 id="pub安装"><a href="#pub安装" class="headerlink" title="pub安装"></a>pub安装</h2><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">fluro:</span> <span class="number">1.6</span><span class="number">.1</span></span><br></pre></td></tr></table></figure>
 
 <h2 id="fluro的使用"><a href="#fluro的使用" class="headerlink" title="fluro的使用"></a>fluro的使用</h2><p>在详细介绍fluro的几个基本功能之前,先看一下本次代码的文件目录</p>
-<img src="./images/image-20200326130936009.png" alt="image-20200326130936009" style="zoom: 50%;" />
-
+<p><img src="https://github.com/morestart/morestart.github.io/blob/master/images/fluro.png" alt="img"></p>
 <h4 id="创建router文件夹"><a href="#创建router文件夹" class="headerlink" title="创建router文件夹"></a>创建router文件夹</h4><p><code>application.dart</code>内容:</p>
 <figure class="highlight dart"><table><tr><td class="code"><pre><span class="line"><span class="keyword">import</span> <span class="string">'package:fluro/fluro.dart'</span>;</span><br><span class="line"></span><br><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">Application</span> </span>&#123;</span><br><span class="line">  <span class="keyword">static</span> Router router;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 

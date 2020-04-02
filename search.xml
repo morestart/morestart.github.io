@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Python数据库简易教程</title>
+    <title>Provider数据共享</title>
     <url>/2020/03/31/Provider%20%E6%95%B0%E6%8D%AE%E5%85%B1%E4%BA%AB/</url>
     <content><![CDATA[<h2 id="Provider-数据共享"><a href="#Provider-数据共享" class="headerlink" title="Provider 数据共享"></a>Provider 数据共享</h2><h3 id="添加依赖"><a href="#添加依赖" class="headerlink" title="添加依赖"></a>添加依赖</h3><figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">provider:</span></span><br></pre></td></tr></table></figure>
 

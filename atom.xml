@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-04-15T01:21:35.733Z</updated>
+  <updated>2020-04-15T01:25:02.156Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Provider数据共享</title>
-    <link href="http://yoursite.com/2020/03/31/Virtualenv/"/>
-    <id>http://yoursite.com/2020/03/31/Virtualenv/</id>
-    <published>2020-03-31T06:42:50.000Z</published>
-    <updated>2020-04-15T01:21:35.733Z</updated>
+    <title>使用虚拟环境部署Python项目</title>
+    <link href="http://yoursite.com/2020/04/15/Virtualenv/"/>
+    <id>http://yoursite.com/2020/04/15/Virtualenv/</id>
+    <published>2020-04-15T01:24:50.000Z</published>
+    <updated>2020-04-15T01:25:02.156Z</updated>
     
     <summary type="html">
     
@@ -37,7 +37,7 @@
     
     
     
-      <category term="flutter" scheme="http://yoursite.com/tags/flutter/"/>
+      <category term="python" scheme="http://yoursite.com/tags/python/"/>
     
   </entry>
   

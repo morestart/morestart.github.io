@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Provider数据共享</title>
-    <url>/2020/03/31/Virtualenv/</url>
+    <title>使用虚拟环境部署Python项目</title>
+    <url>/2020/04/15/Virtualenv/</url>
     <content><![CDATA[<h2 id="Virtualenv"><a href="#Virtualenv" class="headerlink" title="Virtualenv"></a>Virtualenv</h2><h3 id="为什么使用虚拟环境"><a href="#为什么使用虚拟环境" class="headerlink" title="为什么使用虚拟环境"></a>为什么使用虚拟环境</h3><p>开发部署Python程序时,对Python程序的版本要求不同,不同项目需要的依赖不同会导致依赖冲突,所以需要一个沙箱环境对依赖进行隔离,所以每个应用应当应用一套独立的运行环境,这样每个项目不会互相干扰导致冲突崩溃.</p>
 <p>Python有很多虚拟化方案.,比如</p>
 <ul>
@@ -56,7 +56,7 @@
 <p>使用<code>pip3 freeze &gt; requirement.txt</code>将项目中所有依赖版本添加到txt文件中,执行命令后,可以看到文件夹中多出一个<code>requirement.txt</code>的文件,这个文件就是项目中用到的所有的依赖文件,当我们迁移到另外一台服务器的时候,创建虚拟环境后直接执行<code>pip3 install -r requirements.txt</code>就会自动安装所需依赖.</p>
 ]]></content>
       <tags>
-        <tag>flutter</tag>
+        <tag>python</tag>
       </tags>
   </entry>
   <entry>

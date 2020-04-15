@@ -96,6 +96,8 @@
       <h2 id="Provider-数据共享"><a href="#Provider-数据共享" class="headerlink" title="Provider 数据共享"></a>Provider 数据共享</h2><h3 id="添加依赖"><a href="#添加依赖" class="headerlink" title="添加依赖"></a>添加依赖</h3><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">provider:</span></span><br></pre></td></tr></table></figure>
 
 <p>默认添加最新版本的依赖</p>
+<a id="more"></a>
+
 <h3 id="创建store类"><a href="#创建store类" class="headerlink" title="创建store类"></a>创建store类</h3><figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">CounterProvider</span> <span class="title">with</span> <span class="title">ChangeNotifier</span> </span>&#123;</span><br><span class="line">  <span class="built_in">int</span> _number = <span class="number">0</span>;</span><br><span class="line">  <span class="built_in">int</span> <span class="keyword">get</span> value =&gt; _number;</span><br><span class="line">  <span class="keyword">void</span> changeNumber() &#123;</span><br><span class="line">    _number++;</span><br><span class="line">    notifyListeners();</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <p>包含两个方法,get方法用于获取数值,changeNumber方法用于改变数值并通知监听改变.每个provider的store类结构都差不多.</p>

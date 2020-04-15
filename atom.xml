@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-04-02T05:38:19.919Z</updated>
+  <updated>2020-04-15T01:21:35.733Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Provider数据共享</title>
+    <link href="http://yoursite.com/2020/03/31/Virtualenv/"/>
+    <id>http://yoursite.com/2020/03/31/Virtualenv/</id>
+    <published>2020-03-31T06:42:50.000Z</published>
+    <updated>2020-04-15T01:21:35.733Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Virtualenv&quot;&gt;&lt;a href=&quot;#Virtualenv&quot; class=&quot;headerlink&quot; title=&quot;Virtualenv&quot;&gt;&lt;/a&gt;Virtualenv&lt;/h2&gt;&lt;h3 id=&quot;为什么使用虚拟环境&quot;&gt;&lt;a href=&quot;#为什么使用虚拟环境&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="flutter" scheme="http://yoursite.com/tags/flutter/"/>
+    
+  </entry>
   
   <entry>
     <title>Provider数据共享</title>
@@ -493,35 +518,6 @@
     
     
       <category term="Python" scheme="http://yoursite.com/tags/Python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>不要说重逢</title>
-    <link href="http://yoursite.com/2018/02/18/%E6%88%91%E4%BB%AC%E4%B8%8D%E8%A6%81%E5%86%8D%E8%AF%B4%E9%87%8D%E9%80%A2%E7%9A%84%E8%AF%9D/"/>
-    <id>http://yoursite.com/2018/02/18/%E6%88%91%E4%BB%AC%E4%B8%8D%E8%A6%81%E5%86%8D%E8%AF%B4%E9%87%8D%E9%80%A2%E7%9A%84%E8%AF%9D/</id>
-    <published>2018-02-18T03:31:25.000Z</published>
-    <updated>2020-03-19T05:06:25.196Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;我们不要再说重逢的话&lt;/p&gt;
-&lt;p&gt;人生是一首残缺的诗&lt;/p&gt;
-&lt;p&gt;不是因为有了上句&lt;/p&gt;
-&lt;p&gt;就必然会有下句。&lt;/p&gt;
-
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="诗与酒" scheme="http://yoursite.com/tags/%E8%AF%97%E4%B8%8E%E9%85%92/"/>
     
   </entry>
   

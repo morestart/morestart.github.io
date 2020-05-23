@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-04-20T04:23:44.637Z</updated>
+  <updated>2020-05-23T01:34:05.191Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>青春的歌</title>
+    <link href="http://yoursite.com/2020/05/23/%E9%9D%92%E6%98%A5%E7%9A%84%E6%AD%8C/"/>
+    <id>http://yoursite.com/2020/05/23/%E9%9D%92%E6%98%A5%E7%9A%84%E6%AD%8C/</id>
+    <published>2020-05-23T01:34:00.000Z</published>
+    <updated>2020-05-23T01:34:05.191Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;如果青春是一首歌，我知道自己不能唱太久。 &lt;/p&gt;
+&lt;p&gt;如果你是最美好的那朵花，我知道盛开过后你将一去不返。
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="诗与酒" scheme="http://yoursite.com/tags/%E8%AF%97%E4%B8%8E%E9%85%92/"/>
+    
+  </entry>
   
   <entry>
     <title>使用keras对糖尿病进行分类</title>
@@ -473,32 +499,6 @@
     
     
       <category term="Python" scheme="http://yoursite.com/tags/Python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>For You</title>
-    <link href="http://yoursite.com/2018/03/26/%E9%81%87%E8%A7%81%E5%A5%B9%E9%82%A3%E4%B8%80%E5%A4%A9/"/>
-    <id>http://yoursite.com/2018/03/26/%E9%81%87%E8%A7%81%E5%A5%B9%E9%82%A3%E4%B8%80%E5%A4%A9/</id>
-    <published>2018-03-26T14:07:40.000Z</published>
-    <updated>2020-03-19T05:06:36.141Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;遇见她的那一天，我跑得上气不接下气。&lt;br&gt;生怕慢一点，她就会淹没在人海里，淹没在岁月的尘埃里。&lt;/p&gt;
-
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="诗与酒" scheme="http://yoursite.com/tags/%E8%AF%97%E4%B8%8E%E9%85%92/"/>
     
   </entry>
   

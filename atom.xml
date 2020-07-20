@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-06-23T08:35:54.075Z</updated>
+  <updated>2020-07-20T02:13:07.092Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>CNN</title>
-    <link href="http://yoursite.com/2020/06/23/CNN%E5%8F%82%E6%95%B0%E8%AF%B4%E6%98%8E/"/>
-    <id>http://yoursite.com/2020/06/23/CNN%E5%8F%82%E6%95%B0%E8%AF%B4%E6%98%8E/</id>
-    <published>2020-06-23T08:35:00.000Z</published>
-    <updated>2020-06-23T08:35:54.075Z</updated>
+    <title>平心,静气</title>
+    <link href="http://yoursite.com/2020/07/20/%E5%B9%B3%E5%BF%83,%E9%9D%99%E6%B0%94/"/>
+    <id>http://yoursite.com/2020/07/20/%E5%B9%B3%E5%BF%83,%E9%9D%99%E6%B0%94/</id>
+    <published>2020-07-20T02:10:00.000Z</published>
+    <updated>2020-07-20T02:13:07.092Z</updated>
     
     <summary type="html">
     
@@ -29,9 +29,31 @@
       
         
         
-          &lt;h2 id=&quot;Code&quot;&gt;&lt;a href=&quot;#Code&quot; class=&quot;headerlink&quot;
+          &lt;p&gt;仰天大笑出门去,我辈岂是蓬蒿人&lt;/p&gt;
+&lt;p&gt;证明自己的唯一的方法就是拿出自己200%的实力&lt;/p&gt;
+&lt;p&gt;然后告诉所有人,这是你.&lt;/p&gt;
+
         
       
+    
+    </summary>
+    
+    
+    
+      <category term="诗与酒" scheme="http://yoursite.com/tags/%E8%AF%97%E4%B8%8E%E9%85%92/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>CNN</title>
+    <link href="http://yoursite.com/2020/06/23/CNN%E5%8F%82%E6%95%B0%E8%AF%B4%E6%98%8E/"/>
+    <id>http://yoursite.com/2020/06/23/CNN%E5%8F%82%E6%95%B0%E8%AF%B4%E6%98%8E/</id>
+    <published>2020-06-23T08:35:00.000Z</published>
+    <updated>2020-07-20T02:09:01.382Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Code&quot;&gt;&lt;a href=&quot;#Code&quot; class=&quot;headerlink&quot; title=&quot;Code&quot;&gt;&lt;/a&gt;Code&lt;/h2&gt;&lt;p&gt;以&lt;code&gt;alexnet&lt;/code&gt;以及&lt;code&gt;paddlepaddle&lt;/code&gt;框架为例&lt;/p&gt;
     
     </summary>
     
@@ -466,33 +488,6 @@
         
           &lt;p&gt;老师曾说千岛寒流遇到日本暖流时，会温暖整个海域&lt;/p&gt;
 &lt;p&gt;我突然想起了你，那是我后来唯一记得的地理题。&lt;/p&gt;
-
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="诗与酒" scheme="http://yoursite.com/tags/%E8%AF%97%E4%B8%8E%E9%85%92/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Morning</title>
-    <link href="http://yoursite.com/2018/04/02/%E6%97%A9/"/>
-    <id>http://yoursite.com/2018/04/02/%E6%97%A9/</id>
-    <published>2018-04-02T00:02:25.000Z</published>
-    <updated>2020-03-19T05:06:27.894Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;思念某个地方&lt;/p&gt;
-&lt;p&gt;多半是因为那里曾经有你爱的人和你爱的过去&lt;/p&gt;
 
         
       

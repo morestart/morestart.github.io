@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-07-20T02:13:07.092Z</updated>
+  <updated>2020-09-05T03:33:13.837Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Toady</title>
+    <link href="http://yoursite.com/2020/09/05/%E5%B7%A5%E4%BD%9C%E6%97%A5/"/>
+    <id>http://yoursite.com/2020/09/05/%E5%B7%A5%E4%BD%9C%E6%97%A5/</id>
+    <published>2020-09-05T03:33:40.000Z</published>
+    <updated>2020-09-05T03:33:13.837Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;工作日&quot;&gt;&lt;a href=&quot;#工作日&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="诗与酒" scheme="http://yoursite.com/tags/%E8%AF%97%E4%B8%8E%E9%85%92/"/>
+    
+  </entry>
   
   <entry>
     <title>平心,静气</title>
@@ -461,33 +486,6 @@
         
           &lt;p&gt;先是太胆小，明知不该做的事却不敢不做&lt;/p&gt;
 &lt;p&gt;后来也还是太胆小，明知该做的事却不敢去做&lt;/p&gt;
-
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="诗与酒" scheme="http://yoursite.com/tags/%E8%AF%97%E4%B8%8E%E9%85%92/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>那些年</title>
-    <link href="http://yoursite.com/2018/04/11/Those%20Days/"/>
-    <id>http://yoursite.com/2018/04/11/Those%20Days/</id>
-    <published>2018-04-11T00:12:25.000Z</published>
-    <updated>2020-03-19T05:06:05.003Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;老师曾说千岛寒流遇到日本暖流时，会温暖整个海域&lt;/p&gt;
-&lt;p&gt;我突然想起了你，那是我后来唯一记得的地理题。&lt;/p&gt;
 
         
       

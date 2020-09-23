@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-09-05T03:33:13.837Z</updated>
+  <updated>2020-09-15T07:57:52.127Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Toady</title>
-    <link href="http://yoursite.com/2020/09/05/%E5%B7%A5%E4%BD%9C%E6%97%A5/"/>
-    <id>http://yoursite.com/2020/09/05/%E5%B7%A5%E4%BD%9C%E6%97%A5/</id>
-    <published>2020-09-05T03:33:40.000Z</published>
-    <updated>2020-09-05T03:33:13.837Z</updated>
+    <title>深度学习 Q&amp;A</title>
+    <link href="http://yoursite.com/2020/09/15/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%20Q&amp;A/"/>
+    <id>http://yoursite.com/2020/09/15/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%20Q&amp;A/</id>
+    <published>2020-09-15T01:16:40.000Z</published>
+    <updated>2020-09-15T07:57:52.127Z</updated>
     
     <summary type="html">
     
@@ -29,7 +29,33 @@
       
         
         
-          &lt;h2 id=&quot;工作日&quot;&gt;&lt;a href=&quot;#工作日&quot; class=&quot;headerlink&quot;
+          &lt;h2 id=&quot;深度学习-Q-amp-A&quot;&gt;&lt;a href=&quot;#深度学习-Q-amp-A&quot; class=&quot;headerlink&quot; title=&quot;深度学习 Q&amp;amp;A&quot;&gt;&lt;/a&gt;深度学习 Q&amp;amp;A&lt;/h2&gt;&lt;h3 id=&quot;1-卷积核大小&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="DeepLearning" scheme="http://yoursite.com/tags/DeepLearning/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Toady</title>
+    <link href="http://yoursite.com/2020/09/05/%E5%B7%A5%E4%BD%9C%E6%97%A5/"/>
+    <id>http://yoursite.com/2020/09/05/%E5%B7%A5%E4%BD%9C%E6%97%A5/</id>
+    <published>2020-09-05T03:33:40.000Z</published>
+    <updated>2020-09-23T02:19:14.390Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;最近一段时间颇为浮躁,没有了之前学习的动力,做事情没有激情,可能是最近工作并不是特贴顺心,对于生活也没有处理的特别好.&lt;/p&gt;
+&lt;p&gt;把时间拨回到大学的时候,一边听歌一边写代码的感觉再也不知道是什么感觉了,老朋友也很久不在联系了,可能大家都在忙碌的生活里无法脱身.真想有一天
         
       
     
@@ -460,33 +486,6 @@
           &lt;p&gt;你是我的睡梦轻轻&lt;/p&gt;
 &lt;p&gt;我的满天繁星&lt;/p&gt;
 &lt;p&gt;And My
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="诗与酒" scheme="http://yoursite.com/tags/%E8%AF%97%E4%B8%8E%E9%85%92/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Zhi</title>
-    <link href="http://yoursite.com/2018/05/04/one/"/>
-    <id>http://yoursite.com/2018/05/04/one/</id>
-    <published>2018-05-04T09:35:25.000Z</published>
-    <updated>2020-03-19T05:05:59.466Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;先是太胆小，明知不该做的事却不敢不做&lt;/p&gt;
-&lt;p&gt;后来也还是太胆小，明知该做的事却不敢去做&lt;/p&gt;
-
         
       
     

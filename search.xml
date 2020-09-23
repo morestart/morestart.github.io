@@ -1,6 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>太空环游记</title>
+    <url>/2020/09/23/%E5%A4%AA%E7%A9%BA%E7%8E%AF%E6%B8%B8%E8%AE%B0/</url>
+    <content><![CDATA[<p>今天无意间打开了好久没用看过的QQ空间,发现老朋友们的生活都有了新变化,KY找到了他的Girl,指导的孩子们参加比赛拍了帅帅的照片,大家的生活都在有条不紊的进行中,就像太空中的星星一样.. </p>
+<p>我呢?</p>
+<p>我的生活也很好,有一个可爱的Girl,一只馋狗,一位合拍的搭档,女孩的工作也逐步进入了正轨..</p>
+<p>真好.</p>
+<p>就像在太空环游一圈回家,什么都没有变化,身边的人,发生的事,都是最美好的现在.</p>
+<p>oh~ 最近工作也要加油啊, for you, for future.</p>
+<p><img src="https://github.com/morestart/morestart.github.io/blob/master/image/JPEG_20200910_133843.jpg" alt=""></p>
+]]></content>
+      <tags>
+        <tag>诗与酒</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>深度学习 Q&amp;A</title>
     <url>/2020/09/15/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%20Q&amp;A/</url>
     <content><![CDATA[<h2 id="深度学习-Q-amp-A"><a href="#深度学习-Q-amp-A" class="headerlink" title="深度学习 Q&amp;A"></a>深度学习 Q&amp;A</h2><h3 id="1-卷积核大小"><a href="#1-卷积核大小" class="headerlink" title="1. 卷积核大小"></a>1. 卷积核大小</h3><p>​    卷积核大小通常使用1，3，5，7这样的奇数，如果使用的填充大小为ph=(kh−1)/2，pw=(kw−1)/2p_h=(k_h-1)/2 ，p_w=(k_w-1)/2<em>p**h</em>=(<em>k<strong>h<em>−1)/2，</em>p</strong>w</em>=(<em>k*</em>w*−1)/2，则卷积之后图像尺寸不变。例如当卷积核大小为3时，padding大小为1，卷积之后图像尺寸不变；同理，如果卷积核大小为5，padding大小为2，也能保持图像尺寸不变。</p>

@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-09-15T07:57:52.127Z</updated>
+  <updated>2020-09-23T02:33:53.051Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>太空环游记</title>
+    <link href="http://yoursite.com/2020/09/23/%E5%A4%AA%E7%A9%BA%E7%8E%AF%E6%B8%B8%E8%AE%B0/"/>
+    <id>http://yoursite.com/2020/09/23/%E5%A4%AA%E7%A9%BA%E7%8E%AF%E6%B8%B8%E8%AE%B0/</id>
+    <published>2020-09-23T02:19:40.000Z</published>
+    <updated>2020-09-23T02:33:53.051Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;今天无意间打开了好久没用看过的QQ空间,发现老朋友们的生活都有了新变化,KY找到了他的Girl,指导的孩子们参加比赛拍了帅帅的照片,大家的生活都在有条不紊的进行中,就像太空中的星星一样..
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="诗与酒" scheme="http://yoursite.com/tags/%E8%AF%97%E4%B8%8E%E9%85%92/"/>
+    
+  </entry>
   
   <entry>
     <title>深度学习 Q&amp;A</title>
@@ -467,33 +492,6 @@
     
     
       <category term="Python" scheme="http://yoursite.com/tags/Python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Mine</title>
-    <link href="http://yoursite.com/2018/05/07/Mine/"/>
-    <id>http://yoursite.com/2018/05/07/Mine/</id>
-    <published>2018-05-07T05:50:25.000Z</published>
-    <updated>2020-03-19T05:05:57.503Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;你是我的睡梦轻轻&lt;/p&gt;
-&lt;p&gt;我的满天繁星&lt;/p&gt;
-&lt;p&gt;And My
-        
-      
-    
-    </summary>
-    
-    
-    
-      <category term="诗与酒" scheme="http://yoursite.com/tags/%E8%AF%97%E4%B8%8E%E9%85%92/"/>
     
   </entry>
   

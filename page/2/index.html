@@ -65,6 +65,77 @@
     
     
     
+    <article id="post-Provider 数据共享" class="article article-type-post" itemscope
+  itemprop="blogPost" data-scroll-reveal>
+
+  <div class="article-inner">
+    
+    <header class="article-header">
+       
+<h2 itemprop="name">
+  <a class="article-title" href="/2020/03/31/Provider%20%E6%95%B0%E6%8D%AE%E5%85%B1%E4%BA%AB/"
+    >Provider数据共享</a
+  >
+</h2>
+  
+
+    </header>
+    
+
+    
+    <div class="article-meta">
+      <a href="/2020/03/31/Provider%20%E6%95%B0%E6%8D%AE%E5%85%B1%E4%BA%AB/" class="article-date">
+  <time datetime="2020-03-31T06:42:50.000Z" itemprop="datePublished">2020-03-31</time>
+</a>
+      
+      
+      
+      
+    </div>
+    
+
+    
+
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+      
+
+      
+      <h2 id="Provider-数据共享"><a href="#Provider-数据共享" class="headerlink" title="Provider 数据共享"></a>Provider 数据共享</h2><h3 id="添加依赖"><a href="#添加依赖" class="headerlink" title="添加依赖"></a>添加依赖</h3><figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">provider:</span></span><br></pre></td></tr></table></figure>
+
+<p>默认添加最新版本的依赖</p>
+      
+      <a class="article-more-link" href="/2020/03/31/Provider%20%E6%95%B0%E6%8D%AE%E5%85%B1%E4%BA%AB/">阅读更多...</a>
+      
+      
+      <!-- reward -->
+      
+    </div>
+    
+    
+      <!-- copyright -->
+      
+    <footer class="article-footer">
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/flutter/" rel="tag">flutter</a></li></ul>
+
+
+    </footer>
+
+  </div>
+
+  
+
+  
+  
+  
+
+  
+
+</article>
+    
     <article id="post-flutter 路由" class="article article-type-post" itemscope
   itemprop="blogPost" data-scroll-reveal>
 
@@ -670,90 +741,6 @@
       
       <a class="article-more-link" href="/2018/05/20/SQL%E7%AE%80%E6%98%8E%E6%95%99%E7%A8%8B/">阅读更多...</a>
       
-      
-      <!-- reward -->
-      
-    </div>
-    
-    
-      <!-- copyright -->
-      
-    <footer class="article-footer">
-      
-      
-  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Python/" rel="tag">Python</a></li></ul>
-
-
-    </footer>
-
-  </div>
-
-  
-
-  
-  
-  
-
-  
-
-</article>
-    
-    <article id="post-类型注解" class="article article-type-post" itemscope
-  itemprop="blogPost" data-scroll-reveal>
-
-  <div class="article-inner">
-    
-    <header class="article-header">
-       
-<h2 itemprop="name">
-  <a class="article-title" href="/2018/05/19/%E7%B1%BB%E5%9E%8B%E6%B3%A8%E8%A7%A3/"
-    >Python3类型注解</a
-  >
-</h2>
-  
-
-    </header>
-    
-
-    
-    <div class="article-meta">
-      <a href="/2018/05/19/%E7%B1%BB%E5%9E%8B%E6%B3%A8%E8%A7%A3/" class="article-date">
-  <time datetime="2018-05-19T00:15:40.000Z" itemprop="datePublished">2018-05-19</time>
-</a>
-      
-      
-      
-      
-    </div>
-    
-
-    
-
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-      
-
-      
-      <h2 id="函数注解"><a href="#函数注解" class="headerlink" title="函数注解"></a>函数注解</h2><p>定义函数的时候对参数和返回值添加注解.</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">add</span><span class="params">(a: int, b: int, c: str = <span class="number">5</span>)</span> -&gt; tuple:</span></span><br><span class="line">    <span class="keyword">return</span> a,b,c</span><br></pre></td></tr></table></figure>
-
-<ul>
-<li><code>a: int</code> 注解参数</li>
-<li><code>c: str = 5</code> 注解有默认值的参数</li>
-<li><code>-&gt; tuple</code> 注解返回值类型</li>
-</ul>
-<p>注解内容既可以是类型说明，也可以是字符串，也可以是表达式</p>
-<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">add</span><span class="params">(a: <span class="number">1</span>+<span class="number">1</span>)</span> -&gt; 1 + 1:</span></span><br><span class="line">    <span class="keyword">return</span> a</span><br></pre></td></tr></table></figure>
-
-<h2 id="获取定义函数的注解"><a href="#获取定义函数的注解" class="headerlink" title="获取定义函数的注解"></a>获取定义函数的注解</h2><ul>
-<li><p>使用<code>__annotations__</code>,例如<code>add.__annotations</code>.</p>
-</li>
-<li><p><code>inspect.signature</code>:</p>
-  <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> inspect</span><br><span class="line">sig = inspect.signature(add)</span><br><span class="line"><span class="comment"># 字典类型</span></span><br><span class="line">print(sig.paraments)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 参数注解</span></span><br><span class="line"><span class="keyword">for</span> k, v <span class="keyword">in</span> sig.parameters.items():</span><br><span class="line">    print(<span class="string">'&#123;k&#125;: &#123;a!r&#125;'</span>.format(k=k, a=v.annotation))</span><br><span class="line"></span><br><span class="line"><span class="comment"># 返回值注解</span></span><br><span class="line">print(sig.return_annotation)</span><br></pre></td></tr></table></figure>
-</li>
-</ul>
-
       
       <!-- reward -->
       

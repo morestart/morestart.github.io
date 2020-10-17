@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-10-17T07:11:05.346Z</updated>
+  <updated>2020-10-17T10:15:30.770Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,38 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>怀念</title>
+    <link href="http://yoursite.com/2020/10/18/%E6%80%80%E5%BF%B5/"/>
+    <id>http://yoursite.com/2020/10/18/%E6%80%80%E5%BF%B5/</id>
+    <published>2020-10-18T07:01:40.000Z</published>
+    <updated>2020-10-17T10:15:30.770Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;上中学时,怀念的是小学的人儿&lt;/p&gt;
+&lt;p&gt;上高中时,怀念的是初中的人儿&lt;/p&gt;
+&lt;p&gt;上大学时,怀念的是什么呢?&lt;/p&gt;
+&lt;p&gt;食堂的饭菜,操场的水汽,清晨的音乐&lt;/p&gt;
+&lt;p&gt;还是?&lt;/p&gt;
+&lt;p&gt;那些寝室一起打游戏的快乐&lt;/p&gt;
+&lt;p&gt;一起吹牛逼的时光&lt;/p&gt;
+&lt;p&gt;
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="诗与酒" scheme="http://yoursite.com/tags/%E8%AF%97%E4%B8%8E%E9%85%92/"/>
+    
+  </entry>
   
   <entry>
     <title>things</title>
@@ -476,33 +508,6 @@
     
     
       <category term="Python" scheme="http://yoursite.com/tags/Python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>再见2018, 你好2019</title>
-    <link href="http://yoursite.com/2019/01/08/%E5%86%8D%E8%A7%812018,%20%E4%BD%A0%E5%A5%BD2019/"/>
-    <id>http://yoursite.com/2019/01/08/%E5%86%8D%E8%A7%812018,%20%E4%BD%A0%E5%A5%BD2019/</id>
-    <published>2019-01-08T15:58:31.000Z</published>
-    <updated>2020-03-19T05:06:17.913Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;​    &lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;“人的眼睛是由黑、白两部分所组成的，可是神为什么要让人只能通过黑的部分去看东西？” “因为人生必须透过黑暗，才能看到光明。”    ——《塔木德》&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;​                                &lt;/p&gt;
-&lt;p&gt;宿舍楼下有一家水果店, 已经是九月的末梢, 芒果,橙子,柚子…..整齐的放在一格一格的木头盒子里.&lt;/p&gt;
-&lt;p&gt;图书馆的二楼,有一株可以晒到早上八点的阳光的绿色小植物.&lt;/p&gt;
-&lt;p&gt;晾衣架上有一件白色的衬衫.&lt;/p&gt;
-&lt;p&gt;2018年就像我的2015年.&lt;/p&gt;
-    
-    </summary>
-    
-    
-    
-      <category term="随笔" scheme="http://yoursite.com/tags/%E9%9A%8F%E7%AC%94/"/>
     
   </entry>
   

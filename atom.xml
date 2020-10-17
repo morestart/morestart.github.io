@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-10-03T09:20:08.012Z</updated>
+  <updated>2020-10-17T07:04:05.318Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>things</title>
+    <link href="http://yoursite.com/2020/10/17/things/"/>
+    <id>http://yoursite.com/2020/10/17/things/</id>
+    <published>2020-10-17T07:01:40.000Z</published>
+    <updated>2020-10-17T07:04:05.318Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;说起来,生活里还是有很多快乐的事情&lt;/p&gt;
+&lt;p&gt;有身边爱你的人,有一起拼搏的人,哈,群居动物.&lt;/p&gt;
+&lt;p&gt;不管我们现在在做什么,看看窗外的阳光吧,正好~&lt;/p&gt;
+
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="诗与酒" scheme="http://yoursite.com/tags/%E8%AF%97%E4%B8%8E%E9%85%92/"/>
+    
+  </entry>
   
   <entry>
     <title>23</title>
@@ -475,28 +503,6 @@
     
     
       <category term="随笔" scheme="http://yoursite.com/tags/%E9%9A%8F%E7%AC%94/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Python数据库简易教程</title>
-    <link href="http://yoursite.com/2018/05/20/SQL%E7%AE%80%E6%98%8E%E6%95%99%E7%A8%8B/"/>
-    <id>http://yoursite.com/2018/05/20/SQL%E7%AE%80%E6%98%8E%E6%95%99%E7%A8%8B/</id>
-    <published>2018-05-20T13:50:50.000Z</published>
-    <updated>2020-03-19T05:06:01.831Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;创建数据库&quot;&gt;&lt;a href=&quot;#创建数据库&quot; class=&quot;headerlink&quot; title=&quot;创建数据库:&quot;&gt;&lt;/a&gt;创建数据库:&lt;/h2&gt;&lt;p&gt;&lt;code&gt;CREAT TABLE&lt;/code&gt; 表名称 (键值)&lt;/p&gt;
-&lt;p&gt;其中必须有一个主键 即为 &lt;code&gt;PRIMARY&lt;/code&gt; 键&lt;/p&gt;
-&lt;p&gt;&lt;code&gt;NOT NULL&lt;/code&gt; 即为插入数据不能为空&lt;/p&gt;
-&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; sqlite3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;conn = sqlite3.connect(&lt;span class=&quot;string&quot;&gt;&quot;test.db&quot;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;print(&lt;span class=&quot;string&quot;&gt;&quot;Open data successful&quot;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;comment&quot;&gt;# 打开游标&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;c = conn.cursor()&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-    
-    </summary>
-    
-    
-    
-      <category term="Python" scheme="http://yoursite.com/tags/Python/"/>
     
   </entry>
   

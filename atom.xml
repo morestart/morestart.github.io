@@ -222,44 +222,6 @@
   </entry>
   
   <entry>
-    <title>PL-2</title>
-    <link href="http://yoursite.com/2020/06/23/PL%E8%87%AA%E5%AE%9A%E4%B9%89%E6%95%B0%E6%8D%AE%E9%9B%86/"/>
-    <id>http://yoursite.com/2020/06/23/PL%E8%87%AA%E5%AE%9A%E4%B9%89%E6%95%B0%E6%8D%AE%E9%9B%86/</id>
-    <published>2020-06-23T08:35:00.000Z</published>
-    <updated>2020-10-21T09:17:06.371Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;PL使用自定义数据训练&quot;&gt;&lt;a href=&quot;#PL使用自定义数据训练&quot; class=&quot;headerlink&quot; title=&quot;PL使用自定义数据训练&quot;&gt;&lt;/a&gt;PL使用自定义数据训练&lt;/h2&gt;&lt;h3 id=&quot;导包&quot;&gt;&lt;a href=&quot;#导包&quot; class=&quot;headerlink&quot; title=&quot;导包&quot;&gt;&lt;/a&gt;导包&lt;/h3&gt;&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;from&lt;/span&gt; typing &lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; Union, List&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; torch&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; torch.nn &lt;span class=&quot;keyword&quot;&gt;as&lt;/span&gt; nn&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;from&lt;/span&gt; PIL &lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; Image&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;from&lt;/span&gt; pytorch_lightning.callbacks &lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; ModelCheckpoint&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;from&lt;/span&gt; pytorch_lightning.core.lightning &lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; LightningModule&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;from&lt;/span&gt; pytorch_lightning.loggers &lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; TensorBoardLogger&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;from&lt;/span&gt; torch.utils.data &lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; DataLoader&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;from&lt;/span&gt; torchsummary &lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; summary&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;from&lt;/span&gt; torchvision &lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; transforms, datasets&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; pytorch_lightning &lt;span class=&quot;keyword&quot;&gt;as&lt;/span&gt; pl&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; cv2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; torch.nn.functional &lt;span class=&quot;keyword&quot;&gt;as&lt;/span&gt; F&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-    
-    </summary>
-    
-    
-    
-      <category term="python" scheme="http://yoursite.com/tags/python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PL-1</title>
-    <link href="http://yoursite.com/2020/06/23/PyTorch%20Lighting/"/>
-    <id>http://yoursite.com/2020/06/23/PyTorch%20Lighting/</id>
-    <published>2020-06-23T08:35:00.000Z</published>
-    <updated>2020-10-21T09:16:59.713Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;PyTorch-Lightning&quot;&gt;&lt;a href=&quot;#PyTorch-Lightning&quot; class=&quot;headerlink&quot; title=&quot;PyTorch Lightning&quot;&gt;&lt;/a&gt;PyTorch Lightning&lt;/h2&gt;&lt;h3 id=&quot;基本结构&quot;&gt;&lt;a href=&quot;#基本结构&quot; class=&quot;headerlink&quot; title=&quot;基本结构&quot;&gt;&lt;/a&gt;基本结构&lt;/h3&gt;&lt;p&gt;首先要继承&lt;code&gt;LightningModule&lt;/code&gt;类作为基类，然后在&lt;code&gt;init&lt;/code&gt;中实现模型的基本算子，&lt;code&gt;def training_step(self, batch, batch_idx):&lt;/code&gt;此函数实现了训练步骤的前向传递、损失和tensorboard的log记录，然后在&lt;code&gt;def configure_optimizers(self):&lt;/code&gt;函数中定义优化器即可完成基本的训练构建。&lt;/p&gt;
-    
-    </summary>
-    
-    
-    
-      <category term="python" scheme="http://yoursite.com/tags/python/"/>
-    
-  </entry>
-  
-  <entry>
     <title>青春的歌</title>
     <link href="http://yoursite.com/2020/05/23/%E9%9D%92%E6%98%A5%E7%9A%84%E6%AD%8C/"/>
     <id>http://yoursite.com/2020/05/23/%E9%9D%92%E6%98%A5%E7%9A%84%E6%AD%8C/</id>
@@ -484,6 +446,59 @@
     
     
       <category term="诗与酒" scheme="http://yoursite.com/tags/%E8%AF%97%E4%B8%8E%E9%85%92/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2019新春</title>
+    <link href="http://yoursite.com/2019/02/05/2019-2-5-2019%E6%96%B0%E6%98%A5/"/>
+    <id>http://yoursite.com/2019/02/05/2019-2-5-2019%E6%96%B0%E6%98%A5/</id>
+    <published>2019-02-04T17:05:10.000Z</published>
+    <updated>2020-03-19T05:05:32.651Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;爆竹声中一岁除,春风送暖入屠苏&lt;/p&gt;
+&lt;p&gt;新春佳节,新的一年要更加努力,去自己想去的地方!&lt;/p&gt;
+&lt;p&gt;新春快乐~&lt;/p&gt;
+
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="随笔" scheme="http://yoursite.com/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Django图片上传</title>
+    <link href="http://yoursite.com/2019/01/15/Django%E5%9B%BE%E7%89%87%E4%B8%8A%E4%BC%A0/"/>
+    <id>http://yoursite.com/2019/01/15/Django%E5%9B%BE%E7%89%87%E4%B8%8A%E4%BC%A0/</id>
+    <published>2019-01-14T16:00:00.000Z</published>
+    <updated>2020-03-19T05:05:46.094Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;Python-Web-学习之图片上传&quot;&gt;&lt;a href=&quot;#Python-Web-学习之图片上传&quot; class=&quot;headerlink&quot; title=&quot;Python Web 学习之图片上传&quot;&gt;&lt;/a&gt;Python Web 学习之图片上传&lt;/h2&gt;&lt;figure
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Python" scheme="http://yoursite.com/tags/Python/"/>
     
   </entry>
   

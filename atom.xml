@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-10-17T10:25:11.537Z</updated>
+  <updated>2020-10-21T09:45:26.257Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,44 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PL-2</title>
+    <link href="http://yoursite.com/2020/10/21/PL%E8%87%AA%E5%AE%9A%E4%B9%89%E6%95%B0%E6%8D%AE%E9%9B%86/"/>
+    <id>http://yoursite.com/2020/10/21/PL%E8%87%AA%E5%AE%9A%E4%B9%89%E6%95%B0%E6%8D%AE%E9%9B%86/</id>
+    <published>2020-10-21T08:35:00.000Z</published>
+    <updated>2020-10-21T09:45:26.257Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;PL使用自定义数据训练&quot;&gt;&lt;a href=&quot;#PL使用自定义数据训练&quot; class=&quot;headerlink&quot; title=&quot;PL使用自定义数据训练&quot;&gt;&lt;/a&gt;PL使用自定义数据训练&lt;/h2&gt;&lt;h3 id=&quot;导包&quot;&gt;&lt;a href=&quot;#导包&quot; class=&quot;headerlink&quot; title=&quot;导包&quot;&gt;&lt;/a&gt;导包&lt;/h3&gt;&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;from&lt;/span&gt; typing &lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; Union, List&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; torch&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; torch.nn &lt;span class=&quot;keyword&quot;&gt;as&lt;/span&gt; nn&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;from&lt;/span&gt; PIL &lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; Image&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;from&lt;/span&gt; pytorch_lightning.callbacks &lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; ModelCheckpoint&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;from&lt;/span&gt; pytorch_lightning.core.lightning &lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; LightningModule&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;from&lt;/span&gt; pytorch_lightning.loggers &lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; TensorBoardLogger&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;from&lt;/span&gt; torch.utils.data &lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; DataLoader&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;from&lt;/span&gt; torchsummary &lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; summary&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;from&lt;/span&gt; torchvision &lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; transforms, datasets&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; pytorch_lightning &lt;span class=&quot;keyword&quot;&gt;as&lt;/span&gt; pl&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; cv2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; torch.nn.functional &lt;span class=&quot;keyword&quot;&gt;as&lt;/span&gt; F&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="python" scheme="http://yoursite.com/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PL-1</title>
+    <link href="http://yoursite.com/2020/10/21/PyTorch%20Lighting/"/>
+    <id>http://yoursite.com/2020/10/21/PyTorch%20Lighting/</id>
+    <published>2020-10-21T08:35:00.000Z</published>
+    <updated>2020-10-21T09:45:18.147Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;PyTorch-Lightning&quot;&gt;&lt;a href=&quot;#PyTorch-Lightning&quot; class=&quot;headerlink&quot; title=&quot;PyTorch Lightning&quot;&gt;&lt;/a&gt;PyTorch Lightning&lt;/h2&gt;&lt;h3 id=&quot;基本结构&quot;&gt;&lt;a href=&quot;#基本结构&quot; class=&quot;headerlink&quot; title=&quot;基本结构&quot;&gt;&lt;/a&gt;基本结构&lt;/h3&gt;&lt;p&gt;首先要继承&lt;code&gt;LightningModule&lt;/code&gt;类作为基类，然后在&lt;code&gt;init&lt;/code&gt;中实现模型的基本算子，&lt;code&gt;def training_step(self, batch, batch_idx):&lt;/code&gt;此函数实现了训练步骤的前向传递、损失和tensorboard的log记录，然后在&lt;code&gt;def configure_optimizers(self):&lt;/code&gt;函数中定义优化器即可完成基本的训练构建。&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="python" scheme="http://yoursite.com/tags/python/"/>
+    
+  </entry>
   
   <entry>
     <title>怀念</title>
@@ -212,44 +250,6 @@
     <summary type="html">
     
       &lt;h2 id=&quot;Code&quot;&gt;&lt;a href=&quot;#Code&quot; class=&quot;headerlink&quot; title=&quot;Code&quot;&gt;&lt;/a&gt;Code&lt;/h2&gt;&lt;p&gt;以&lt;code&gt;alexnet&lt;/code&gt;以及&lt;code&gt;paddlepaddle&lt;/code&gt;框架为例&lt;/p&gt;
-    
-    </summary>
-    
-    
-    
-      <category term="python" scheme="http://yoursite.com/tags/python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PL-2</title>
-    <link href="http://yoursite.com/2020/06/23/PL%E8%87%AA%E5%AE%9A%E4%B9%89%E6%95%B0%E6%8D%AE%E9%9B%86/"/>
-    <id>http://yoursite.com/2020/06/23/PL%E8%87%AA%E5%AE%9A%E4%B9%89%E6%95%B0%E6%8D%AE%E9%9B%86/</id>
-    <published>2020-06-23T08:35:00.000Z</published>
-    <updated>2020-10-21T09:17:06.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;PL使用自定义数据训练&quot;&gt;&lt;a href=&quot;#PL使用自定义数据训练&quot; class=&quot;headerlink&quot; title=&quot;PL使用自定义数据训练&quot;&gt;&lt;/a&gt;PL使用自定义数据训练&lt;/h2&gt;&lt;h3 id=&quot;导包&quot;&gt;&lt;a href=&quot;#导包&quot; class=&quot;headerlink&quot; title=&quot;导包&quot;&gt;&lt;/a&gt;导包&lt;/h3&gt;&lt;figure class=&quot;highlight python&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;from&lt;/span&gt; typing &lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; Union, List&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; torch&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; torch.nn &lt;span class=&quot;keyword&quot;&gt;as&lt;/span&gt; nn&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;from&lt;/span&gt; PIL &lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; Image&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;from&lt;/span&gt; pytorch_lightning.callbacks &lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; ModelCheckpoint&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;from&lt;/span&gt; pytorch_lightning.core.lightning &lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; LightningModule&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;from&lt;/span&gt; pytorch_lightning.loggers &lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; TensorBoardLogger&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;from&lt;/span&gt; torch.utils.data &lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; DataLoader&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;from&lt;/span&gt; torchsummary &lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; summary&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;from&lt;/span&gt; torchvision &lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; transforms, datasets&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; pytorch_lightning &lt;span class=&quot;keyword&quot;&gt;as&lt;/span&gt; pl&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; cv2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;import&lt;/span&gt; torch.nn.functional &lt;span class=&quot;keyword&quot;&gt;as&lt;/span&gt; F&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-    
-    </summary>
-    
-    
-    
-      <category term="python" scheme="http://yoursite.com/tags/python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>PL-1</title>
-    <link href="http://yoursite.com/2020/06/23/PyTorch%20Lighting/"/>
-    <id>http://yoursite.com/2020/06/23/PyTorch%20Lighting/</id>
-    <published>2020-06-23T08:35:00.000Z</published>
-    <updated>2020-10-21T09:16:59.713Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;PyTorch-Lightning&quot;&gt;&lt;a href=&quot;#PyTorch-Lightning&quot; class=&quot;headerlink&quot; title=&quot;PyTorch Lightning&quot;&gt;&lt;/a&gt;PyTorch Lightning&lt;/h2&gt;&lt;h3 id=&quot;基本结构&quot;&gt;&lt;a href=&quot;#基本结构&quot; class=&quot;headerlink&quot; title=&quot;基本结构&quot;&gt;&lt;/a&gt;基本结构&lt;/h3&gt;&lt;p&gt;首先要继承&lt;code&gt;LightningModule&lt;/code&gt;类作为基类，然后在&lt;code&gt;init&lt;/code&gt;中实现模型的基本算子，&lt;code&gt;def training_step(self, batch, batch_idx):&lt;/code&gt;此函数实现了训练步骤的前向传递、损失和tensorboard的log记录，然后在&lt;code&gt;def configure_optimizers(self):&lt;/code&gt;函数中定义优化器即可完成基本的训练构建。&lt;/p&gt;
     
     </summary>
     

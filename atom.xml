@@ -47,7 +47,7 @@
     <link href="http://yoursite.com/2020/11/30/forget/"/>
     <id>http://yoursite.com/2020/11/30/forget/</id>
     <published>2020-11-30T01:24:00.000Z</published>
-    <updated>2020-12-24T06:50:42.757Z</updated>
+    <updated>2020-12-24T06:50:42.000Z</updated>
     
     <summary type="html">
     
@@ -79,7 +79,7 @@
     <link href="http://yoursite.com/2020/11/14/%E8%B5%B0/"/>
     <id>http://yoursite.com/2020/11/14/%E8%B5%B0/</id>
     <published>2020-11-14T08:23:00.000Z</published>
-    <updated>2020-11-30T01:37:40.262Z</updated>
+    <updated>2020-11-30T01:37:40.000Z</updated>
     
     <summary type="html">
     
@@ -107,8 +107,8 @@
     <title>C++学习笔记</title>
     <link href="http://yoursite.com/2020/11/04/C++%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/"/>
     <id>http://yoursite.com/2020/11/04/C++%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</id>
-    <published>2020-11-04T01:20:08.239Z</published>
-    <updated>2020-11-04T01:20:08.240Z</updated>
+    <published>2020-11-04T01:20:08.000Z</published>
+    <updated>2020-11-04T01:20:08.000Z</updated>
     
     <summary type="html">
     
@@ -131,7 +131,7 @@
     <link href="http://yoursite.com/2020/11/02/2020-11-02-%E5%A4%8F%E5%A4%A9/"/>
     <id>http://yoursite.com/2020/11/02/2020-11-02-%E5%A4%8F%E5%A4%A9/</id>
     <published>2020-11-02T07:01:40.000Z</published>
-    <updated>2020-11-02T14:30:39.723Z</updated>
+    <updated>2020-11-02T14:30:39.000Z</updated>
     
     <summary type="html">
     
@@ -154,30 +154,11 @@
   </entry>
   
   <entry>
-    <title>PL-1</title>
-    <link href="http://yoursite.com/2020/10/21/PyTorch%20Lighting/"/>
-    <id>http://yoursite.com/2020/10/21/PyTorch%20Lighting/</id>
-    <published>2020-10-21T08:35:00.000Z</published>
-    <updated>2020-10-21T09:45:18.147Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;PyTorch-Lightning&quot;&gt;&lt;a href=&quot;#PyTorch-Lightning&quot; class=&quot;headerlink&quot; title=&quot;PyTorch Lightning&quot;&gt;&lt;/a&gt;PyTorch Lightning&lt;/h2&gt;&lt;h3 id=&quot;基本结构&quot;&gt;&lt;a href=&quot;#基本结构&quot; class=&quot;headerlink&quot; title=&quot;基本结构&quot;&gt;&lt;/a&gt;基本结构&lt;/h3&gt;&lt;p&gt;首先要继承&lt;code&gt;LightningModule&lt;/code&gt;类作为基类，然后在&lt;code&gt;init&lt;/code&gt;中实现模型的基本算子，&lt;code&gt;def training_step(self, batch, batch_idx):&lt;/code&gt;此函数实现了训练步骤的前向传递、损失和tensorboard的log记录，然后在&lt;code&gt;def configure_optimizers(self):&lt;/code&gt;函数中定义优化器即可完成基本的训练构建。&lt;/p&gt;
-    
-    </summary>
-    
-    
-    
-      <category term="python" scheme="http://yoursite.com/tags/python/"/>
-    
-  </entry>
-  
-  <entry>
     <title>PL-2</title>
     <link href="http://yoursite.com/2020/10/21/PL%E8%87%AA%E5%AE%9A%E4%B9%89%E6%95%B0%E6%8D%AE%E9%9B%86/"/>
     <id>http://yoursite.com/2020/10/21/PL%E8%87%AA%E5%AE%9A%E4%B9%89%E6%95%B0%E6%8D%AE%E9%9B%86/</id>
     <published>2020-10-21T08:35:00.000Z</published>
-    <updated>2020-10-21T09:45:26.257Z</updated>
+    <updated>2020-10-21T09:45:26.000Z</updated>
     
     <summary type="html">
     
@@ -192,11 +173,30 @@
   </entry>
   
   <entry>
+    <title>PL-1</title>
+    <link href="http://yoursite.com/2020/10/21/PyTorch%20Lighting/"/>
+    <id>http://yoursite.com/2020/10/21/PyTorch%20Lighting/</id>
+    <published>2020-10-21T08:35:00.000Z</published>
+    <updated>2020-10-21T09:45:18.000Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;PyTorch-Lightning&quot;&gt;&lt;a href=&quot;#PyTorch-Lightning&quot; class=&quot;headerlink&quot; title=&quot;PyTorch Lightning&quot;&gt;&lt;/a&gt;PyTorch Lightning&lt;/h2&gt;&lt;h3 id=&quot;基本结构&quot;&gt;&lt;a href=&quot;#基本结构&quot; class=&quot;headerlink&quot; title=&quot;基本结构&quot;&gt;&lt;/a&gt;基本结构&lt;/h3&gt;&lt;p&gt;首先要继承&lt;code&gt;LightningModule&lt;/code&gt;类作为基类，然后在&lt;code&gt;init&lt;/code&gt;中实现模型的基本算子，&lt;code&gt;def training_step(self, batch, batch_idx):&lt;/code&gt;此函数实现了训练步骤的前向传递、损失和tensorboard的log记录，然后在&lt;code&gt;def configure_optimizers(self):&lt;/code&gt;函数中定义优化器即可完成基本的训练构建。&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="python" scheme="http://yoursite.com/tags/python/"/>
+    
+  </entry>
+  
+  <entry>
     <title>怀念</title>
     <link href="http://yoursite.com/2020/10/18/%E6%80%80%E5%BF%B5/"/>
     <id>http://yoursite.com/2020/10/18/%E6%80%80%E5%BF%B5/</id>
     <published>2020-10-18T07:01:40.000Z</published>
-    <updated>2020-10-17T10:25:11.537Z</updated>
+    <updated>2020-10-17T10:25:11.000Z</updated>
     
     <summary type="html">
     
@@ -219,7 +219,7 @@
     <link href="http://yoursite.com/2020/10/17/things/"/>
     <id>http://yoursite.com/2020/10/17/things/</id>
     <published>2020-10-17T07:01:40.000Z</published>
-    <updated>2020-10-17T07:11:05.346Z</updated>
+    <updated>2020-10-17T07:11:05.000Z</updated>
     
     <summary type="html">
     
@@ -247,7 +247,7 @@
     <link href="http://yoursite.com/2020/10/03/23/"/>
     <id>http://yoursite.com/2020/10/03/23/</id>
     <published>2020-10-02T17:05:10.000Z</published>
-    <updated>2020-10-03T09:20:08.012Z</updated>
+    <updated>2020-10-03T09:20:08.000Z</updated>
     
     <summary type="html">
     
@@ -278,7 +278,7 @@
     <link href="http://yoursite.com/2020/09/23/%E5%A4%AA%E7%A9%BA%E7%8E%AF%E6%B8%B8%E8%AE%B0/"/>
     <id>http://yoursite.com/2020/09/23/%E5%A4%AA%E7%A9%BA%E7%8E%AF%E6%B8%B8%E8%AE%B0/</id>
     <published>2020-09-23T02:19:40.000Z</published>
-    <updated>2020-09-23T02:36:06.579Z</updated>
+    <updated>2020-09-23T02:36:06.000Z</updated>
     
     <summary type="html">
     
@@ -303,7 +303,7 @@
     <link href="http://yoursite.com/2020/09/15/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%20Q&amp;A/"/>
     <id>http://yoursite.com/2020/09/15/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%20Q&amp;A/</id>
     <published>2020-09-15T01:16:40.000Z</published>
-    <updated>2020-09-15T07:57:52.127Z</updated>
+    <updated>2020-09-15T07:57:52.000Z</updated>
     
     <summary type="html">
     
@@ -328,7 +328,7 @@
     <link href="http://yoursite.com/2020/09/05/%E5%B7%A5%E4%BD%9C%E6%97%A5/"/>
     <id>http://yoursite.com/2020/09/05/%E5%B7%A5%E4%BD%9C%E6%97%A5/</id>
     <published>2020-09-05T03:33:40.000Z</published>
-    <updated>2020-09-23T02:19:14.390Z</updated>
+    <updated>2020-09-23T02:19:14.000Z</updated>
     
     <summary type="html">
     
@@ -354,7 +354,7 @@
     <link href="http://yoursite.com/2020/07/20/%E5%B9%B3%E5%BF%83,%E9%9D%99%E6%B0%94/"/>
     <id>http://yoursite.com/2020/07/20/%E5%B9%B3%E5%BF%83,%E9%9D%99%E6%B0%94/</id>
     <published>2020-07-20T02:10:00.000Z</published>
-    <updated>2020-07-20T02:13:07.092Z</updated>
+    <updated>2020-07-20T02:13:07.000Z</updated>
     
     <summary type="html">
     
@@ -382,7 +382,7 @@
     <link href="http://yoursite.com/2020/06/23/CNN%E5%8F%82%E6%95%B0%E8%AF%B4%E6%98%8E/"/>
     <id>http://yoursite.com/2020/06/23/CNN%E5%8F%82%E6%95%B0%E8%AF%B4%E6%98%8E/</id>
     <published>2020-06-23T08:35:00.000Z</published>
-    <updated>2020-07-20T02:09:01.382Z</updated>
+    <updated>2020-07-20T02:09:01.000Z</updated>
     
     <summary type="html">
     
@@ -401,7 +401,7 @@
     <link href="http://yoursite.com/2020/05/23/%E9%9D%92%E6%98%A5%E7%9A%84%E6%AD%8C/"/>
     <id>http://yoursite.com/2020/05/23/%E9%9D%92%E6%98%A5%E7%9A%84%E6%AD%8C/</id>
     <published>2020-05-23T01:34:00.000Z</published>
-    <updated>2020-05-23T01:34:05.191Z</updated>
+    <updated>2020-05-23T01:34:05.000Z</updated>
     
     <summary type="html">
     
@@ -427,7 +427,7 @@
     <link href="http://yoursite.com/2020/04/20/%E4%BD%BF%E7%94%A8keras%E5%AF%B9%E7%B3%96%E5%B0%BF%E7%97%85%E8%BF%9B%E8%A1%8C%E5%88%86%E7%B1%BB/"/>
     <id>http://yoursite.com/2020/04/20/%E4%BD%BF%E7%94%A8keras%E5%AF%B9%E7%B3%96%E5%B0%BF%E7%97%85%E8%BF%9B%E8%A1%8C%E5%88%86%E7%B1%BB/</id>
     <published>2020-04-20T03:29:50.000Z</published>
-    <updated>2020-04-20T04:23:44.637Z</updated>
+    <updated>2020-04-20T04:23:44.000Z</updated>
     
     <summary type="html">
     
@@ -446,7 +446,7 @@
     <link href="http://yoursite.com/2020/04/15/%E6%A0%91%E8%8E%93%E6%B4%BEmotion%E7%9B%91%E6%8E%A7/"/>
     <id>http://yoursite.com/2020/04/15/%E6%A0%91%E8%8E%93%E6%B4%BEmotion%E7%9B%91%E6%8E%A7/</id>
     <published>2020-04-15T13:07:25.000Z</published>
-    <updated>2020-04-15T13:07:15.692Z</updated>
+    <updated>2020-04-15T13:07:15.000Z</updated>
     
     <summary type="html">
     
@@ -471,7 +471,7 @@
     <link href="http://yoursite.com/2020/04/15/Virtualenv/"/>
     <id>http://yoursite.com/2020/04/15/Virtualenv/</id>
     <published>2020-04-15T01:24:50.000Z</published>
-    <updated>2020-04-15T09:40:43.426Z</updated>
+    <updated>2020-04-15T09:40:43.000Z</updated>
     
     <summary type="html">
     
@@ -490,7 +490,7 @@
     <link href="http://yoursite.com/2020/03/31/Provider%20%E6%95%B0%E6%8D%AE%E5%85%B1%E4%BA%AB/"/>
     <id>http://yoursite.com/2020/03/31/Provider%20%E6%95%B0%E6%8D%AE%E5%85%B1%E4%BA%AB/</id>
     <published>2020-03-31T06:42:50.000Z</published>
-    <updated>2020-04-15T05:07:07.011Z</updated>
+    <updated>2020-04-15T05:07:07.000Z</updated>
     
     <summary type="html">
     

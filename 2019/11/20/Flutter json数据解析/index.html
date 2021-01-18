@@ -1,5 +1,8 @@
 <!DOCTYPE html>
+
+
 <html lang="en">
+
 
 <head>
   <meta charset="utf-8" />
@@ -8,15 +11,23 @@
   <title>
     Flutter json数据解析 |  More Star
   </title>
-  <meta name="generator" content="hexo-theme-yilia-plus">
+  <meta name="generator" content="hexo-theme-ayer">
   
   <link rel="shortcut icon" href="/favicon.ico" />
   
   
-<link rel="stylesheet" href="/css/main.css">
+<link rel="stylesheet" href="/dist/main.css">
 
   
-  <script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Shen-Yu/cdn/css/remixicon.min.css">
+
+  
+<link rel="stylesheet" href="/css/custom.css">
+
+  
+  
+<script src="https://cdn.jsdelivr.net/npm/pace-js@1.0.2/pace.min.js"></script>
+
   
   
 
@@ -29,11 +40,20 @@
 
 <body>
   <div id="app">
-    <main class="content">
+    
+      
+      <canvas width="1777" height="841"
+        style="position: fixed; left: 0px; top: 0px; z-index: 99999; pointer-events: none;"></canvas>
+      
+    <main class="content on">
       <section class="outer">
-  <article id="post-Flutter json数据解析" class="article article-type-post" itemscope
-  itemprop="blogPost" data-scroll-reveal>
-
+  <article
+  id="post-Flutter json数据解析"
+  class="article article-type-post"
+  itemscope
+  itemprop="blogPost"
+  data-scroll-reveal
+>
   <div class="article-inner">
     
     <header class="article-header">
@@ -41,25 +61,20 @@
 <h1 class="article-title sea-center" style="border-left:0" itemprop="name">
   Flutter json数据解析
 </h1>
-  
+ 
 
     </header>
-    
-
-    
+     
     <div class="article-meta">
       <a href="/2019/11/20/Flutter%20json%E6%95%B0%E6%8D%AE%E8%A7%A3%E6%9E%90/" class="article-date">
   <time datetime="2019-11-20T12:34:48.000Z" itemprop="datePublished">2019-11-20</time>
-</a>
-      
-      
-      
+</a>   
 <div class="word_count">
     <span class="post-time">
         <span class="post-meta-item-icon">
             <i class="ri-quill-pen-line"></i>
-            <span class="post-meta-item-text"> 字数统计:</span>
-            <span class="post-count">311字</span>
+            <span class="post-meta-item-text"> Word count:</span>
+            <span class="post-count">311</span>
         </span>
     </span>
 
@@ -67,33 +82,23 @@
         &nbsp; | &nbsp;
         <span class="post-meta-item-icon">
             <i class="ri-book-open-line"></i>
-            <span class="post-meta-item-text"> 阅读时长≈</span>
-            <span class="post-count">1分钟</span>
+            <span class="post-meta-item-text"> Reading time≈</span>
+            <span class="post-count">1 min</span>
         </span>
     </span>
 </div>
-
-      
+ 
     </div>
-    
-
-    
-    
+      
     <div class="tocbot"></div>
 
 
 
 
-
-    
-
-    
+  
     <div class="article-entry" itemprop="articleBody">
-      
-      
-
-      
-      <h2 id="手动序列化"><a href="#手动序列化" class="headerlink" title="手动序列化"></a>手动序列化</h2><p>使用dart:convert手动序列化数据</p>
+       
+  <h2 id="手动序列化"><a href="#手动序列化" class="headerlink" title="手动序列化"></a>手动序列化</h2><p>使用dart:convert手动序列化数据</p>
 <p>json数据:</p>
 <figure class="highlight json"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  <span class="attr">"name"</span>: <span class="string">"John Smith"</span>,</span><br><span class="line">  <span class="attr">"email"</span>: <span class="string">"john@example.com"</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
@@ -113,18 +118,28 @@
 <p>因为dio请求过来的数据已经是map类型了,所以不需要jsonDecode进行编码,直接调用模型类即可解析</p>
 <figure class="highlight dart"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="class"><span class="keyword">class</span> <span class="title">RequestImage</span> </span>&#123;</span><br><span class="line">	<span class="keyword">final</span> <span class="built_in">String</span> url = <span class="string">"http://v3.wufazhuce.com:8000/api/channel/one/0/北京"</span>;</span><br><span class="line"></span><br><span class="line">	Future getImage() <span class="keyword">async</span> &#123;</span><br><span class="line">		<span class="keyword">try</span> &#123;</span><br><span class="line">			Response response = <span class="keyword">await</span> Dio().<span class="keyword">get</span>(url);</span><br><span class="line">			<span class="built_in">print</span>(response.data.runtimeType);</span><br><span class="line"><span class="comment">//			Map dataMap = jsonDecode(response.data['data']);</span></span><br><span class="line"></span><br><span class="line">			<span class="keyword">var</span> user =  OneModel.fromJson(response.data[<span class="string">'data'</span>]);</span><br><span class="line">			<span class="built_in">print</span>(user.id);</span><br><span class="line">		&#125; <span class="keyword">catch</span> (e) &#123;</span><br><span class="line">			<span class="built_in">print</span>(e);</span><br><span class="line">		&#125;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
-
-      
+ 
       <!-- reward -->
       
     </div>
     
+
+    <!-- copyright -->
     
-      <!-- copyright -->
-      
-    <footer class="article-footer">
-      
+    <div class="declare">
+      <ul class="post-copyright">
+        <li>
+          <i class="ri-copyright-line"></i>
+          <strong>Copyright： </strong>
           
+          Copyright is owned by the author. For commercial reprints, please contact the author for authorization. For non-commercial reprints, please indicate the source.
+          
+        </li>
+      </ul>
+    </div>
+    
+    <footer class="article-footer">
+       
 <div class="share-btn">
       <span class="share-sns share-outer">
         <i class="ri-share-forward-line"></i>
@@ -171,16 +186,11 @@
     </div>
 </div>
 
-<div id="share-mask"></div>
-      
-      
-
+<div id="share-mask"></div>  
     </footer>
-
   </div>
 
-  
-  
+   
   <nav class="article-nav">
     
       <a href="/2020/03/17/%E5%82%BB%E6%B0%94/" class="article-nav-link">
@@ -200,92 +210,38 @@
     
   </nav>
 
-
   
-
-  
-  
-<!-- valine评论 -->
-<div id="vcomments-box">
-    <div id="vcomments">
-    </div>
-</div>
-<script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-<script src='https://cdn.jsdelivr.net/npm/valine@1.3.10/dist/Valine.min.js'></script>
-<script>
-    new Valine({
-        el: '#vcomments',
-        app_id: '',
-        app_key: '',
-        path: window.location.pathname,
-        notify: 'false',
-        verify: 'false',
-        avatar: 'mp',
-        placeholder: '给我的文章加点评论吧~',
-        recordIP: true
-    });
-    const infoEle = document.querySelector('#vcomments .info');
-    if (infoEle && infoEle.childNodes && infoEle.childNodes.length > 0) {
-        infoEle.childNodes.forEach(function (item) {
-            item.parentNode.removeChild(item);
-        });
-    }
-</script>
-<style>
-    #vcomments-box {
-        padding: 5px 30px;
-    }
-
-    @media screen and (max-width: 800px) {
-        #vcomments-box {
-            padding: 5px 0px;
-        }
-    }
-
-    #vcomments-box #vcomments {
-        background-color: #fff;
-    }
-
-    .v .vlist .vcard .vh {
-        padding-right: 20px;
-    }
-
-    .v .vlist .vcard {
-        padding-left: 10px;
-    }
-</style>
-
-  
-
-  
-  
-  
-
+   
+     
 </article>
+
 </section>
       <footer class="footer">
   <div class="outer">
-    <ul class="list-inline">
+    <ul>
       <li>
-        &copy;
+        Copyrights &copy;
         2017-2021
-        More Star
+        <i class="ri-heart-fill heart_icon"></i> More Star
       </li>
+    </ul>
+    <ul>
       <li>
         
       </li>
     </ul>
-    <ul class="list-inline">
+    <ul>
       <li>
         
-        
-        <span>
-  <i>PV:<span id="busuanzi_value_page_pv"></span></i>
-  <i>UV:<span id="busuanzi_value_site_uv"></span></i>
-</span>
-        
       </li>
+    </ul>
+    <ul>
       
+    </ul>
+    <ul>
+      
+    </ul>
+    <ul>
       <li>
         <!-- cnzz统计 -->
         
@@ -293,13 +249,18 @@
     </ul>
   </div>
 </footer>
-      <div class="to_top">
+      <div class="float_btns">
         <div class="totop" id="totop">
   <i class="ri-arrow-up-line"></i>
 </div>
+
+<div class="todark" id="todark">
+  <i class="ri-moon-line"></i>
+</div>
+
       </div>
     </main>
-    <aside class="sidebar">
+    <aside class="sidebar on">
       <button class="navbar-toggle"></button>
 <nav class="navbar">
   
@@ -338,14 +299,30 @@
 </div>
 </div>
     </aside>
+    <script>
+      if (window.matchMedia("(max-width: 768px)").matches) {
+        document.querySelector('.content').classList.remove('on');
+        document.querySelector('.sidebar').classList.remove('on');
+      }
+    </script>
     <div id="mask"></div>
 
 <!-- #reward -->
 <div id="reward">
   <span class="close"><i class="ri-close-line"></i></span>
-  <p class="reward-p"><i class="ri-cup-line"></i></p>
+  <p class="reward-p"><i class="ri-cup-line"></i>请我喝杯咖啡吧~</p>
   <div class="reward-box">
     
+    <div class="reward-item">
+      <img class="reward-img" src="https://cdn.jsdelivr.net/gh/Shen-Yu/cdn/img/alipay.jpg">
+      <span class="reward-type">支付宝</span>
+    </div>
+    
+    
+    <div class="reward-item">
+      <img class="reward-img" src="https://cdn.jsdelivr.net/gh/Shen-Yu/cdn/img/wechat.jpg">
+      <span class="reward-type">微信</span>
+    </div>
     
   </div>
 </div>
@@ -353,34 +330,14 @@
 <script src="/js/jquery-2.0.3.min.js"></script>
 
 
-<script src="/js/share.js"></script>
-
-
 <script src="/js/lazyload.min.js"></script>
 
-
-<script>
-  try {
-    var typed = new Typed("#subtitle", {
-      strings: ['你涉世未深, 所以与众不同', '今朝花靡, 此行珍重', '我对未来一无所知, 但我还是想说 &#39;生活万岁&#39;'],
-      startDelay: 0,
-      typeSpeed: 200,
-      loop: true,
-      backSpeed: 100,
-      showCursor: true
-    });
-  } catch (err) {
-  }
-
-</script>
-
-
+<!-- Tocbot -->
 
 
 <script src="/js/tocbot.min.js"></script>
 
 <script>
-  // Tocbot_v4.7.0  http://tscanlin.github.io/tocbot/
   tocbot.init({
     tocSelector: '.tocbot',
     contentSelector: '.article-entry',
@@ -390,25 +347,17 @@
     scrollContainer: 'main',
     positionFixedSelector: '.tocbot',
     positionFixedClass: 'is-position-fixed',
-    fixedSidebarOffset: 'auto',
-    onClick: (e) => {
-      $('.toc-link').removeClass('is-active-link');
-      $(`a[href=${e.target.hash}]`).addClass('is-active-link');
-      $(e.target.hash).scrollIntoView();
-      return false;
-    }
+    fixedSidebarOffset: 'auto'
   });
 </script>
-
-
 
 <script src="https://cdn.jsdelivr.net/npm/jquery-modal@0.9.2/jquery.modal.min.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery-modal@0.9.2/jquery.modal.min.css">
 <script src="https://cdn.jsdelivr.net/npm/justifiedGallery@3.7.0/dist/js/jquery.justifiedGallery.min.js"></script>
 
-<script src="/js/ayer.js"></script>
+<script src="/dist/main.js"></script>
 
-
+<!-- ImageViewer -->
 
 <!-- Root element of PhotoSwipe. Must have class pswp. -->
 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
@@ -517,32 +466,86 @@
     viewer_init()
 </script>
 
+<!-- MathJax -->
+
+<!-- Katex -->
+
+<!-- busuanzi  -->
+
+<!-- ClickLove -->
+
+<!-- ClickBoom1 -->
+
+<!-- ClickBoom2 -->
 
 
-
-<script src="/js/busuanzi-2.3.pure.min.js"></script>
-
+<script src="/js/clickBoom2.js"></script>
 
 
-<script type="text/javascript" src="https://js.users.51.la/20544303.js"></script>
+<!-- CodeCopy -->
 
-    
-    <div id="music">
-    
-    
-    
-    <iframe frameborder="no" border="1" marginwidth="0" marginheight="0" width="200" height="52"
-        src="//music.163.com/outchain/player?type=2&id=757567&auto=1&height=32"></iframe>
-</div>
 
-<style>
-    #music {
-        position: fixed;
-        right: 15px;
-        bottom: 0;
-        z-index: 998;
+<link rel="stylesheet" href="/css/clipboard.css">
+
+<script src="https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js"></script>
+<script>
+  function wait(callback, seconds) {
+    var timelag = null;
+    timelag = window.setTimeout(callback, seconds);
+  }
+  !function (e, t, a) {
+    var initCopyCode = function(){
+      var copyHtml = '';
+      copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
+      copyHtml += '<i class="ri-file-copy-2-line"></i><span>COPY</span>';
+      copyHtml += '</button>';
+      $(".highlight .code pre").before(copyHtml);
+      $(".article pre code").before(copyHtml);
+      var clipboard = new ClipboardJS('.btn-copy', {
+        target: function(trigger) {
+          return trigger.nextElementSibling;
+        }
+      });
+      clipboard.on('success', function(e) {
+        let $btn = $(e.trigger);
+        $btn.addClass('copied');
+        let $icon = $($btn.find('i'));
+        $icon.removeClass('ri-file-copy-2-line');
+        $icon.addClass('ri-checkbox-circle-line');
+        let $span = $($btn.find('span'));
+        $span[0].innerText = 'COPIED';
+        
+        wait(function () { // 等待两秒钟后恢复
+          $icon.removeClass('ri-checkbox-circle-line');
+          $icon.addClass('ri-file-copy-2-line');
+          $span[0].innerText = 'COPY';
+        }, 2000);
+      });
+      clipboard.on('error', function(e) {
+        e.clearSelection();
+        let $btn = $(e.trigger);
+        $btn.addClass('copy-failed');
+        let $icon = $($btn.find('i'));
+        $icon.removeClass('ri-file-copy-2-line');
+        $icon.addClass('ri-time-line');
+        let $span = $($btn.find('span'));
+        $span[0].innerText = 'COPY FAILED';
+        
+        wait(function () { // 等待两秒钟后恢复
+          $icon.removeClass('ri-time-line');
+          $icon.addClass('ri-file-copy-2-line');
+          $span[0].innerText = 'COPY';
+        }, 2000);
+      });
     }
-</style>
+    initCopyCode();
+  }(window, document);
+</script>
+
+
+<!-- CanvasBackground -->
+
+
     
   </div>
 </body>

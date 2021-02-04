@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2021-01-18T08:12:32.133Z</updated>
+  <updated>2021-02-04T06:38:00.186Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>T</title>
+    <link href="http://yoursite.com/2021/02/04/2021-2-4-T/"/>
+    <id>http://yoursite.com/2021/02/04/2021-2-4-T/</id>
+    <published>2021-02-04T06:37:10.000Z</published>
+    <updated>2021-02-04T06:38:00.186Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;所有的故事都会是好的&lt;/p&gt;
+&lt;p&gt;如果不好，说明还没到最后。&lt;/p&gt;
+
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="随笔" scheme="http://yoursite.com/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
   
   <entry>
     <title>宇宙管理局</title>
@@ -482,27 +509,6 @@
     
     
       <category term="python" scheme="http://yoursite.com/tags/python/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Provider数据共享</title>
-    <link href="http://yoursite.com/2020/03/31/Provider%20%E6%95%B0%E6%8D%AE%E5%85%B1%E4%BA%AB/"/>
-    <id>http://yoursite.com/2020/03/31/Provider%20%E6%95%B0%E6%8D%AE%E5%85%B1%E4%BA%AB/</id>
-    <published>2020-03-31T06:42:50.000Z</published>
-    <updated>2020-04-15T05:07:07.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;Provider-数据共享&quot;&gt;&lt;a href=&quot;#Provider-数据共享&quot; class=&quot;headerlink&quot; title=&quot;Provider 数据共享&quot;&gt;&lt;/a&gt;Provider 数据共享&lt;/h2&gt;&lt;h3 id=&quot;添加依赖&quot;&gt;&lt;a href=&quot;#添加依赖&quot; class=&quot;headerlink&quot; title=&quot;添加依赖&quot;&gt;&lt;/a&gt;添加依赖&lt;/h3&gt;&lt;figure class=&quot;highlight yaml&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;attr&quot;&gt;provider:&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
-
-&lt;p&gt;默认添加最新版本的依赖&lt;/p&gt;
-    
-    </summary>
-    
-    
-    
-      <category term="flutter" scheme="http://yoursite.com/tags/flutter/"/>
     
   </entry>
   

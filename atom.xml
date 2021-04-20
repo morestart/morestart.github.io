@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2021-02-04T06:38:00.186Z</updated>
+  <updated>2021-04-20T13:18:52.458Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>2019之前的事情</title>
+    <link href="http://yoursite.com/2021/04/20/%E5%9B%9E%E5%BF%862015/"/>
+    <id>http://yoursite.com/2021/04/20/%E5%9B%9E%E5%BF%862015/</id>
+    <published>2021-04-20T13:18:14.000Z</published>
+    <updated>2021-04-20T13:18:52.458Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;工作之余翻腾自己许久未整理的资料&lt;/p&gt;
+&lt;p&gt;发现自己错过了很多东西,同学聚会一次也没去过,也不知道之前的同学们现在是什么样子、在做什么&lt;/p&gt;
+&lt;p&gt;好像自己完全换了一个世界,跟之前的自己做了彻底的分离&lt;/p&gt;
+&lt;p&gt;看到自己许久之前写的日记,真的是很有一番滋味。&lt;/p
+        
+      
+    
+    </summary>
+    
+    
+    
+      <category term="随笔" scheme="http://yoursite.com/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
   
   <entry>
     <title>T</title>
@@ -490,25 +518,6 @@
     
     
       <category term="raspberry" scheme="http://yoursite.com/tags/raspberry/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>使用虚拟环境部署Python项目</title>
-    <link href="http://yoursite.com/2020/04/15/Virtualenv/"/>
-    <id>http://yoursite.com/2020/04/15/Virtualenv/</id>
-    <published>2020-04-15T01:24:50.000Z</published>
-    <updated>2020-04-15T09:40:43.000Z</updated>
-    
-    <summary type="html">
-    
-      &lt;h2 id=&quot;Virtualenv&quot;&gt;&lt;a href=&quot;#Virtualenv&quot; class=&quot;headerlink&quot; title=&quot;Virtualenv&quot;&gt;&lt;/a&gt;Virtualenv&lt;/h2&gt;&lt;h3 id=&quot;为什么使用虚拟环境&quot;&gt;&lt;a href=&quot;#为什么使用虚拟环境&quot; class=&quot;headerlink&quot; title=&quot;为什么使用虚拟环境&quot;&gt;&lt;/a&gt;为什么使用虚拟环境&lt;/h3&gt;&lt;p&gt;开发部署Python程序时,对Python程序的版本要求不同,不同项目需要的依赖不同会导致依赖冲突,所以需要一个沙箱环境对依赖进行隔离,所以每个应用应当应用一套独立的运行环境,这样每个项目不会互相干扰导致冲突崩溃.&lt;/p&gt;
-    
-    </summary>
-    
-    
-    
-      <category term="python" scheme="http://yoursite.com/tags/python/"/>
     
   </entry>
   
